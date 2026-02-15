@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Notes</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Quick Notes</h1>
+      <form id="note-form">
+        <input id="note-input" type="text" maxlength="120" placeholder="输入待办事项..." required />
+        <button type="submit">添加</button>
+      </form>
+      <ul id="note-list" aria-live="polite"></ul>
+      <button id="clear-btn" class="clear" type="button">清空全部</button>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Notes 插件",
+  "description": "在浏览器工具栏中快速记录待办事项。",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "Quick Notes",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
