@@ -1,1 +1,11 @@
-
+{
+  "manifest_version": 3,
+  "name": "Starter Portal",
+  "description": "从零搭建的 Chrome 扩展起步模板。",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Starter Portal",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
